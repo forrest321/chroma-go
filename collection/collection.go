@@ -21,7 +21,9 @@ type Option func(*Builder) error
 
 func WithEmbeddingFunction(embeddingFunction types.EmbeddingFunction) Option {
 	return func(c *Builder) error {
-		c.EmbeddingFunction = embeddingFunction
+		if embeddingFunction == nil {
+			c.EmbeddingFunction = embeddingFunction
+		}
 		return nil
 	}
 }
