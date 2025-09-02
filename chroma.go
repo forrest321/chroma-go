@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver" //nolint:gci
-	"github.com/amikos-tech/chroma-go/collection"
-	chhttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	defaultef "github.com/amikos-tech/chroma-go/pkg/embeddings/default_ef"
-	openapiclient "github.com/amikos-tech/chroma-go/swagger"
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/forrest321/chroma-go/collection"
+	chhttp "github.com/forrest321/chroma-go/pkg/commons/http"
+	defaultef "github.com/forrest321/chroma-go/pkg/embeddings/default_ef"
+	openapiclient "github.com/forrest321/chroma-go/swagger"
+	"github.com/forrest321/chroma-go/types"
 )
 
 type ClientConfiguration struct {

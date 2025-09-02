@@ -3,8 +3,8 @@ package collection
 import (
 	"fmt"
 
-	"github.com/amikos-tech/chroma-go/metadata"
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/forrest321/chroma-go/metadata"
+	"github.com/forrest321/chroma-go/types"
 )
 
 type Builder struct {

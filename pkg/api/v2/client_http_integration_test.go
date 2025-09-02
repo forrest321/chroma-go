@@ -21,7 +21,7 @@ import (
 	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
 )
 
 func TestClientHTTPIntegration(t *testing.T) {

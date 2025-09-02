@@ -5,7 +5,7 @@ package ollama
 import (
 	"context"
 	"fmt"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
 	"github.com/stretchr/testify/require"
 	tcollama "github.com/testcontainers/testcontainers-go/modules/ollama"
 	"io"

@@ -20,7 +20,7 @@ package main
 import (
 	"context"
 	"fmt"
-	chroma "github.com/amikos-tech/chroma-go/pkg/api/v2"
+	chroma "github.com/forrest321/chroma-go/pkg/api/v2"
 	"log"
 )
 
@@ -67,7 +67,7 @@ package main
 import (
 	"context"
 	"fmt"
-	chroma "github.com/amikos-tech/chroma-go/pkg/api/v2"
+	chroma "github.com/forrest321/chroma-go/pkg/api/v2"
 	"log"
 )
 
@@ -121,7 +121,7 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
+	chroma "github.com/forrest321/chroma-go"
 )
 
 func main() {

@@ -11,9 +11,9 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	defaultef "github.com/amikos-tech/chroma-go/pkg/embeddings/default_ef"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/mount"
+	defaultef "github.com/forrest321/chroma-go/pkg/embeddings/default_ef"
 	testcontainers "github.com/testcontainers/testcontainers-go"
 	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 	"github.com/testcontainers/testcontainers-go/wait"
@@ -29,11 +29,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/collection"
-	"github.com/amikos-tech/chroma-go/types"
-	"github.com/amikos-tech/chroma-go/where"
-	wheredoc "github.com/amikos-tech/chroma-go/where_document"
+	chroma "github.com/forrest321/chroma-go"
+	"github.com/forrest321/chroma-go/collection"
+	"github.com/forrest321/chroma-go/types"
+	"github.com/forrest321/chroma-go/where"
+	wheredoc "github.com/forrest321/chroma-go/where_document"
 )
 
 func TestChromaClient(t *testing.T) {

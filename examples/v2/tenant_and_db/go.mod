@@ -2,9 +2,9 @@ module main
 
 go 1.24.1
 
-replace github.com/amikos-tech/chroma-go => ../../../
+replace github.com/forrest321/chroma-go => ../../../
 
-require github.com/amikos-tech/chroma-go v0.2.0
+require github.com/forrest321/chroma-go v0.2.0
 
 require (
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect

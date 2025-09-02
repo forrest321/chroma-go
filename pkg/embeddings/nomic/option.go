@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
 )
 
 type Option func(p *Client) error

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io"
 
-	chromago "github.com/amikos-tech/chroma-go"
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
-	"github.com/amikos-tech/chroma-go/pkg/rerankings"
+	chromago "github.com/forrest321/chroma-go"
+	ccommons "github.com/forrest321/chroma-go/pkg/commons/cohere"
+	"github.com/forrest321/chroma-go/pkg/rerankings"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	chromago "github.com/amikos-tech/chroma-go"
+	chromago "github.com/forrest321/chroma-go"
 )
 
 type RerankingModel string

@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	ort "github.com/yalue/onnxruntime_go"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
-	tokenizers "github.com/amikos-tech/chroma-go/pkg/tokenizers/libtokenizers"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
+	tokenizers "github.com/forrest321/chroma-go/pkg/tokenizers/libtokenizers"
 )
 
 type Option func(p *DefaultEmbeddingFunction) error

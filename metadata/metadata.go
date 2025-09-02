@@ -1,7 +1,7 @@
 package metadata
 
 import (
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/forrest321/chroma-go/types"
 )
 
 type MetadataBuilder struct {

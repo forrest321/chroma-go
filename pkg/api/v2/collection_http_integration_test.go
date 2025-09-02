@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/api/types/mount"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 )

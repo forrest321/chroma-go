@@ -12,8 +12,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	chttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	chttp "github.com/forrest321/chroma-go/pkg/commons/http"
+	"github.com/forrest321/chroma-go/pkg/embeddings"
 )
 
 // Docs:  https://docs.together.ai/docs/embeddings-rest.  Models - https://docs.together.ai/docs/embeddings-models.
