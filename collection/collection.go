@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/forrest321/chroma-go/metadata"
+	defaultef "github.com/forrest321/chroma-go/pkg/embeddings/default_ef"
 	"github.com/forrest321/chroma-go/types"
 )
 
@@ -21,8 +22,15 @@ type Option func(*Builder) error
 
 func WithEmbeddingFunction(embeddingFunction types.EmbeddingFunction) Option {
 	return func(c *Builder) error {
-		if embeddingFunction == nil {
+		if embeddingFunction != nil {
 			c.EmbeddingFunction = embeddingFunction
+			return nil
+		} else {
+			ef, _, err := defaultef.NewDefaultEmbeddingFunction()
+			if err != nil {
+				return err
+			}
+			c.EmbeddingFunction = types.NewV2EmbeddingFunctionAdapter(ef)
 		}
 		return nil
 	}
