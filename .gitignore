@@ -27,3 +27,5 @@ _testmain.go
 *.iml
 /data
 /pkg/rerankings/hf/data
+# Added by goreleaser init:
+dist/

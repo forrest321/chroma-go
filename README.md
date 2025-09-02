@@ -103,7 +103,7 @@ chroma "github.com/forrest321/chroma-go"
 Ensure you have a running instance of Chroma running. We recommend one of the two following options:
 
 - [Official documentation](https://docs.trychroma.com/guides#running-chroma-in-client/server-mode)
-- If you are a fan of Kubernetes, you can use the [Helm chart](https://github.com/amikos-tech/chromadb-chart) (Note: You
+- If you are a fan of Kubernetes, you can use the [Helm chart](https://github.com/forrest321/chromadb-chart) (Note: You
   will need `Docker`, `minikube` and `kubectl` installed)
 
 **The Setup (Cloud-native):**
@@ -246,5 +246,5 @@ make server
 ## References
 
 - [Official Chroma documentation](https://docs.trychroma.com/)
-- [Chroma Helm chart](https://github.com/amikos-tech/chromadb-chart) for cloud-native deployments
+- [Chroma Helm chart](https://github.com/forrest321/chromadb-chart) for cloud-native deployments
 - [Chroma Cookbook](https://cookbook.chromadb.dev) for examples and recipes
