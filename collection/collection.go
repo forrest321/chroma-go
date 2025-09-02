@@ -24,14 +24,18 @@ func WithEmbeddingFunction(embeddingFunction types.EmbeddingFunction) Option {
 	return func(c *Builder) error {
 		if embeddingFunction != nil {
 			c.EmbeddingFunction = embeddingFunction
-			return nil
-		} else {
-			ef, _, err := defaultef.NewDefaultEmbeddingFunction()
-			if err != nil {
-				return err
-			}
-			c.EmbeddingFunction = types.NewV2EmbeddingFunctionAdapter(ef)
 		}
+		return nil
+	}
+}
+
+func WithDefaultEmbeddingFunction() Option {
+	return func(c *Builder) error {
+		ef, _, err := defaultef.NewDefaultEmbeddingFunction()
+		if err != nil {
+			return err
+		}
+		c.EmbeddingFunction = types.NewV2EmbeddingFunctionAdapter(ef)
 		return nil
 	}
 }

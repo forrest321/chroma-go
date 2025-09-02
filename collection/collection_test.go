@@ -18,6 +18,12 @@ func TestCollectionBuilder(t *testing.T) {
 		require.NoError(t, err, "Unexpected error: %v", err)
 		require.Nil(t, b.EmbeddingFunction)
 	})
+	t.Run("With Default Embedding Function", func(t *testing.T) {
+		b := &Builder{}
+		err := WithDefaultEmbeddingFunction()()(b)
+		require.NoError(t, err, "Unexpected error: %v", err)
+		require.Nil(t, b.EmbeddingFunction)
+	})
 	t.Run("With ID Generator", func(t *testing.T) {
 		var generator = types.NewULIDGenerator()
 		b := &Builder{}
